@@ -1,0 +1,16 @@
+{
+  "name": "webplode-marketplace",
+  "version": "0.1.0",
+  "description": "Webplode plugin marketplace for Claude Code",
+  "author": {
+    "name": "webplode"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "marketplace",
+    "prompt-leverage"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "webplode-marketplace",
+  "description": "Webplode plugin marketplace - prompt leverage and AI workflow tools",
+  "owner": {
+    "name": "webplode"
+  },
+  "plugins": [
+    {
+      "name": "webplode-marketplace",
+      "description": "Webplode plugin marketplace for Claude Code. Includes prompt-leverage skill for upgrading raw prompts into execution-ready instructions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "webplode"
+      },
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "prompt-engineering",
+        "prompt-leverage",
+        "productivity",
+        "workflow"
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}
