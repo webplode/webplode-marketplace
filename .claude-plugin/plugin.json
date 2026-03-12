@@ -10,7 +10,13 @@
     "claude-code",
     "plugin",
     "marketplace",
-    "prompt-leverage"
+    "prompt-leverage",
+    "beads-rust",
+    "beads-viewer",
+    "ultra-bug-scanner",
+    "issue-tracker",
+    "static-analysis",
+    "triage"
   ],
   "skills": "./skills/"
 }

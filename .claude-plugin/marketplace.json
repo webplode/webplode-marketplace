@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "webplode-marketplace",
-      "description": "Webplode plugin marketplace for Claude Code. Includes prompt-leverage skill for upgrading raw prompts into execution-ready instructions.",
+      "description": "Webplode plugin marketplace for Claude Code. Includes skills for prompt leverage, beads issue tracking (br), graph-aware triage (bv), and static analysis (ubs).",
       "version": "0.1.0",
       "author": {
         "name": "webplode"
@@ -18,6 +18,12 @@
       "tags": [
         "prompt-engineering",
         "prompt-leverage",
+        "beads-rust",
+        "beads-viewer",
+        "ultra-bug-scanner",
+        "issue-tracker",
+        "triage",
+        "static-analysis",
         "productivity",
         "workflow"
       ]
