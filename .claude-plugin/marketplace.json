@@ -9,7 +9,7 @@
     {
       "name": "webplode-marketplace",
       "description": "Webplode plugin marketplace for Claude Code. Includes skills for prompt leverage, beads issue tracking (br), graph-aware triage (bv), and static analysis (ubs).",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "webplode"
       },
@@ -29,5 +29,5 @@
       ]
     }
   ],
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
