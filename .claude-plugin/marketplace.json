@@ -1,19 +1,19 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "webplode-marketplace",
-  "description": "Webplode plugin marketplace - prompt leverage and AI workflow tools",
+  "description": "Webplode plugin marketplace — 18 skills across 2 plugins for AI-driven development workflows, multi-agent orchestration, issue tracking, triage, and static analysis",
   "owner": {
     "name": "webplode"
   },
   "plugins": [
     {
-      "name": "webplode-marketplace",
-      "description": "Webplode plugin marketplace for Claude Code. Includes skills for prompt leverage, beads issue tracking (br), graph-aware triage (bv), and static analysis (ubs).",
-      "version": "0.2.0",
+      "name": "webplode",
+      "description": "Core skills for issue tracking (beads-rust), graph-aware triage (beads-viewer), static analysis (ultra-bug-scanner), and prompt engineering (prompt-leverage).",
+      "version": "0.3.0",
       "author": {
         "name": "webplode"
       },
-      "source": "./",
+      "source": "./plugins/webplode",
       "category": "productivity",
       "tags": [
         "prompt-engineering",
@@ -23,11 +23,31 @@
         "ultra-bug-scanner",
         "issue-tracker",
         "triage",
-        "static-analysis",
-        "productivity",
-        "workflow"
+        "static-analysis"
+      ]
+    },
+    {
+      "name": "khuym",
+      "description": "Multi-agent coordination skills for agentic software development — exploring, planning, validating, swarming, executing, reviewing, compounding, and more.",
+      "version": "2.1.1",
+      "author": {
+        "name": "hoangnb24",
+        "url": "https://github.com/hoangnb24"
+      },
+      "source": "./plugins/khuym",
+      "category": "productivity",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "planning",
+        "swarming",
+        "executing",
+        "reviewing",
+        "compounding",
+        "debugging",
+        "agentic-development"
       ]
     }
   ],
-  "version": "0.2.0"
+  "version": "0.3.0"
 }

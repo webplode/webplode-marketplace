@@ -1,0 +1,22 @@
+{
+  "name": "khuym",
+  "version": "2.1.1",
+  "description": "Khuym: multi-agent coordination skills for planning, validation, swarming, and execution",
+  "author": {
+    "name": "hoangnb24",
+    "url": "https://github.com/hoangnb24"
+  },
+  "homepage": "https://github.com/hoangnb24/skills",
+  "license": "MIT",
+  "keywords": [
+    "khuym",
+    "multi-agent",
+    "orchestration",
+    "planning",
+    "swarming",
+    "executing",
+    "reviewing",
+    "agentic-development"
+  ],
+  "skills": "./skills/"
+}

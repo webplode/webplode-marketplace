@@ -1,7 +1,7 @@
 {
-  "name": "webplode-marketplace",
-  "version": "0.2.0",
-  "description": "Webplode plugin marketplace for Claude Code",
+  "name": "webplode",
+  "version": "0.3.0",
+  "description": "Webplode core skills for issue tracking, triage, static analysis, and prompt engineering",
   "author": {
     "name": "webplode"
   },
@@ -9,14 +9,13 @@
   "keywords": [
     "claude-code",
     "plugin",
-    "marketplace",
-    "prompt-leverage",
     "beads-rust",
     "beads-viewer",
     "ultra-bug-scanner",
+    "prompt-leverage",
     "issue-tracker",
-    "static-analysis",
-    "triage"
+    "triage",
+    "static-analysis"
   ],
   "skills": "./skills/"
 }
