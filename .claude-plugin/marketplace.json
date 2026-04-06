@@ -29,7 +29,7 @@
     {
       "name": "khuym",
       "description": "Multi-agent coordination skills for agentic software development — exploring, planning, validating, swarming, executing, reviewing, compounding, and more.",
-      "version": "2.1.1",
+      "version": "2.2.1",
       "author": {
         "name": "hoangnb24",
         "url": "https://github.com/hoangnb24"

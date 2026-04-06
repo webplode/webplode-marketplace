@@ -4,9 +4,24 @@ A Claude Code plugin marketplace with curated skills for AI-powered workflows.
 
 ## Installation
 
-```bash
-claude plugin add /path/to/webplode-marketplace
+### Add the marketplace
+
+```shell
+/plugin marketplace add webplode/webplode-marketplace
 ```
+
+### Install plugins
+
+```shell
+/plugin install webplode@webplode-marketplace    # Core tools (beads, triage, scanner, prompt-leverage)
+/plugin install khuym@webplode-marketplace        # Multi-agent coordination skills
+```
+
+### Browse available plugins
+
+Run `/plugin` in Claude Code and go to the **Discover** tab to see all available skills.
+
+After installing, run `/reload-plugins` to activate.
 
 ## Plugins
 
