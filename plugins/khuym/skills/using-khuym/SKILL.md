@@ -16,22 +16,20 @@ Bootstrap meta-skill. Load this first. It tells you which skill to invoke next a
 
 Before any normal bootstrap, verify that the current repo is onboarded for the Khuym plugin.
 
-Run `scripts/onboard_khuym.py --repo-root <repo-root>` from this skill directory and inspect the JSON result.
+Run `python3 scripts/onboard_khuym.py --repo-root <repo-root>` from this skill directory and inspect the JSON result.
 
 - If `status = "up_to_date"`: proceed immediately.
 - If onboarding is missing or stale:
   - summarize what the script wants to create or update
-  - if `requires_confirmation = true`, explain that an existing `compact_prompt` was found and Khuym will preserve it unless the user explicitly approves replacement
   - ask before making repo changes
-  - after approval, run `scripts/onboard_khuym.py --repo-root <repo-root> --apply`
-  - only use `--allow-compact-prompt-replace` when the user explicitly approved replacing the repo's existing compaction prompt
+  - after approval, run `python3 scripts/onboard_khuym.py --repo-root <repo-root> --apply`
 
 Onboarding installs or updates:
 
 - root `AGENTS.md` from the plugin's `AGENTS.template.md`
-- repo-local `.codex/config.toml`
-- repo-local `.codex/hooks.json`
-- repo-local `.codex/hooks/khuym_*.py`
+- repo-local `.claude/settings.local.json` (hooks configuration)
+- repo-local `.claude/hooks/khuym_*.py` (hook scripts)
+- repo-local `CLAUDE.md` (context recovery block)
 - `.khuym/onboarding.json`
 
 If onboarding is not complete, do not continue into the rest of the Khuym workflow.
